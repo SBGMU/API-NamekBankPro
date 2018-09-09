@@ -1,0 +1,10 @@
+App\Entity\Master:
+  masteradmin_{1..2}:
+    firstname: <firstName()>
+    lastname: <lastName()>
+    email: <email()>
+    roles: ['ROLE_ADMIN']
+  master_{1..10}:
+    firstname: <firstName()>
+    lastname: <lastName()>
+    email: <email()>

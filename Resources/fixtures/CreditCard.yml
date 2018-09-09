@@ -1,0 +1,6 @@
+App\Entity\CreditCard:
+  creditcard_{1..10}:
+    name: <name()>
+    creditCardType: <text(20))>
+    creditCardNumber: <numberBetween(1111111111, 9999999999)>
+    company: '@company*'
